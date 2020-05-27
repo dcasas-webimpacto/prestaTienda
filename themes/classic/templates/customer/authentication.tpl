@@ -23,24 +23,34 @@
  * International Registered Trademark & Property of PrestaShop SA
  *}
 {extends file='page.tpl'}
-
+        {block name='header'}
+          
+        {/block}
 {block name='page_title'}
-  {l s='Log in to your account' d='Shop.Theme.Customeraccount'}
+  
 {/block}
 
 {block name='page_content'}
-    {block name='login_form_container'}
-      <section class="login-form">
-        {render file='customer/_partials/login-form.tpl' ui=$login_form}
-      </section>
-      <hr/>
-      {block name='display_after_login_form'}
-        {hook h='displayCustomerLoginFormAfter'}
-      {/block}
-      <div class="no-account">
-        <a href="{$urls.pages.register}" data-link-action="display-register-form">
-          {l s='No account? Create one here' d='Shop.Theme.Customeraccount'}
-        </a>
-      </div>
-    {/block}
+    <div class="contenedorImagen">
+     <div class="row fila1">
+            <div class="col-5 col-xs-5 col-sm-5 pl-2 pl-sm-3 c1">
+              <img id="img1" src="../go-back.svg" />
+              <span class="span1">
+                Volver
+              </span>
+            </div>
+            <div class="col-7 col-xs-7 col-sm-7 pr-2 c">
+              <span class="span2">
+                Nueva cuenta
+              </span>
+              <img id="img2" src="../User-plus.svg" />
+            </div>
+          </div>
+    
+    
+    
+    </div>
 {/block}
+ {block name="footer"}
+          
+        {/block}

@@ -22,28 +22,33 @@
  * @license   https://opensource.org/licenses/AFL-3.0 Academic Free License 3.0 (AFL-3.0)
  * International Registered Trademark & Property of PrestaShop SA
  *}
-{extends file='page.tpl'}
+{block name='login_form'}
 
-{block name='page_title'}
-  {l s='Guest Order Tracking' d='Shop.Theme.Customeraccount'}
-{/block}
+  {block name='login_form_errors'}
+    {include file='_partials/form-errors.tpl' errors=$errors['']}
+  {/block}
 
-{block name='page_content'}
-  <form id="guestOrderTrackingForm" action="{$urls.pages.guest_tracking}" method="get">
-    <header>
-      <p>{l s='To track your order, please enter the following information:' d='Shop.Theme.Customeraccount'}</p>
-    </header>
+  <form id="login-form" action="{block name='login_form_actionurl'}{$action}{/block}" method="post">
 
-    <section class="form-fields">
-
-
-
+    <section>
+      <div class="row fila8">
+            <div class="col-11 form-group fila8-1">
+              <label for="exampleInputEmail1" id="emailregistro">Email</label>
+              <input type="email" class="form-control" id="casillaemail" />
+            </div>
+          </div>
     </section>
 
-    <footer class="form-footer text-sm-center clearfix">
-      <button class="btn btn-primary" type="submit">
-        {l s='Send' d='Shop.Theme.Actions'}
-      </button>
-    </footer>
+    {block name='login_form_footer'}
+      <footer class="form-footer text-sm-center clearfix">
+        <input type="hidden" name="submitLogin" value="1">
+        {block name='form_buttons'}
+          <button id="submit-login" class="btn btn-primary" data-link-action="sign-in" type="submit" class="form-control-submit">
+            {l s='Sign in' d='Shop.Theme.Actions'}
+          </button>
+        {/block}
+      </footer>
+    {/block}
+
   </form>
 {/block}

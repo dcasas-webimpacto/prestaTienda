@@ -24,26 +24,23 @@
  *}
 {extends file='page.tpl'}
 
-{block name='page_title'}
-  {l s='Guest Order Tracking' d='Shop.Theme.Customeraccount'}
+{block name='notifications'}{/block}
+
+{block name='page_content_container'}
+  <section id="content" class="page-content">
+    {block name='page_content_top'}
+      {block name='customer_notifications'}
+        {include file='_partials/notifications.tpl'}
+      {/block}
+    {/block}
+    {block name='page_content'}
+      <!-- Page content -->
+    {/block}
+  </section>
 {/block}
 
-{block name='page_content'}
-  <form id="guestOrderTrackingForm" action="{$urls.pages.guest_tracking}" method="get">
-    <header>
-      <p>{l s='To track your order, please enter the following information:' d='Shop.Theme.Customeraccount'}</p>
-    </header>
-
-    <section class="form-fields">
-
-
-
-    </section>
-
-    <footer class="form-footer text-sm-center clearfix">
-      <button class="btn btn-primary" type="submit">
-        {l s='Send' d='Shop.Theme.Actions'}
-      </button>
-    </footer>
-  </form>
+{block name='page_footer'}
+  {block name='my_account_links'}
+    {include file='customer/_partials/my-account-links.tpl'}
+  {/block}
 {/block}

@@ -22,28 +22,35 @@
  * @license   https://opensource.org/licenses/AFL-3.0 Academic Free License 3.0 (AFL-3.0)
  * International Registered Trademark & Property of PrestaShop SA
  *}
-{extends file='page.tpl'}
-
-{block name='page_title'}
-  {l s='Guest Order Tracking' d='Shop.Theme.Customeraccount'}
-{/block}
-
-{block name='page_content'}
-  <form id="guestOrderTrackingForm" action="{$urls.pages.guest_tracking}" method="get">
-    <header>
-      <p>{l s='To track your order, please enter the following information:' d='Shop.Theme.Customeraccount'}</p>
-    </header>
-
-    <section class="form-fields">
-
-
-
-    </section>
-
-    <footer class="form-footer text-sm-center clearfix">
-      <button class="btn btn-primary" type="submit">
-        {l s='Send' d='Shop.Theme.Actions'}
-      </button>
-    </footer>
-  </form>
-{/block}
+<div class="container">
+  <div class="row">
+    {block name='hook_footer_before'}
+      {hook h='displayFooterBefore'}
+    {/block}
+  </div>
+</div>
+<div class="footer-container">
+  <div class="container">
+    <div class="row">
+      {block name='hook_footer'}
+        {hook h='displayFooter'}
+      {/block}
+    </div>
+    <div class="row">
+      {block name='hook_footer_after'}
+        {hook h='displayFooterAfter'}
+      {/block}
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <p class="text-sm-center">
+          {block name='copyright_link'}
+            <a class="_blank" href="https://www.prestashop.com" target="_blank" rel="nofollow">
+              {l s='%copyright% %year% - Ecommerce software by %prestashop%' sprintf=['%prestashop%' => 'PrestaShop™', '%year%' => 'Y'|date, '%copyright%' => '©'] d='Shop.Theme.Global'}
+            </a>
+          {/block}
+        </p>
+      </div>
+    </div>
+  </div>
+</div>

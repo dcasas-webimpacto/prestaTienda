@@ -22,28 +22,37 @@
  * @license   https://opensource.org/licenses/AFL-3.0 Academic Free License 3.0 (AFL-3.0)
  * International Registered Trademark & Property of PrestaShop SA
  *}
-{extends file='page.tpl'}
+{extends file=$layout}
 
-{block name='page_title'}
-  {l s='Guest Order Tracking' d='Shop.Theme.Customeraccount'}
-{/block}
+{block name='content'}
 
-{block name='page_content'}
-  <form id="guestOrderTrackingForm" action="{$urls.pages.guest_tracking}" method="get">
-    <header>
-      <p>{l s='To track your order, please enter the following information:' d='Shop.Theme.Customeraccount'}</p>
-    </header>
+  <section id="main">
 
-    <section class="form-fields">
+    {block name='page_header_container'}
+      {block name='page_title' hide}
+        <header class="page-header">
+          <h1>{$smarty.block.child}</h1>
+        </header>
+      {/block}
+    {/block}
 
+    {block name='page_content_container'}
+      <section id="content" class="page-content card card-block">
+        {block name='page_content_top'}{/block}
+        {block name='page_content'}
+          <!-- Page content -->
+        {/block}
+      </section>
+    {/block}
 
+    {block name='page_footer_container'}
+      <footer class="page-footer">
+        {block name='page_footer'}
+          <!-- Footer content -->
+        {/block}
+      </footer>
+    {/block}
 
-    </section>
+  </section>
 
-    <footer class="form-footer text-sm-center clearfix">
-      <button class="btn btn-primary" type="submit">
-        {l s='Send' d='Shop.Theme.Actions'}
-      </button>
-    </footer>
-  </form>
 {/block}
