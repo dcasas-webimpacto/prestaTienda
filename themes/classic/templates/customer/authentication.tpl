@@ -1,56 +1,45 @@
 {**
- * 2007-2019 PrestaShop and Contributors
- *
- * NOTICE OF LICENSE
- *
- * This source file is subject to the Academic Free License 3.0 (AFL-3.0)
- * that is bundled with this package in the file LICENSE.txt.
- * It is also available through the world-wide-web at this URL:
- * https://opensource.org/licenses/AFL-3.0
- * If you did not receive a copy of the license and are unable to
- * obtain it through the world-wide-web, please send an email
- * to license@prestashop.com so we can send you a copy immediately.
- *
- * DISCLAIMER
- *
- * Do not edit or add to this file if you wish to upgrade PrestaShop to newer
- * versions in the future. If you wish to customize PrestaShop for your
- * needs please refer to https://www.prestashop.com for more information.
- *
- * @author    PrestaShop SA <contact@prestashop.com>
- * @copyright 2007-2019 PrestaShop SA and Contributors
- * @license   https://opensource.org/licenses/AFL-3.0 Academic Free License 3.0 (AFL-3.0)
- * International Registered Trademark & Property of PrestaShop SA
- *}
-{extends file='page.tpl'}
-        {block name='header'}
-          
-        {/block}
-{block name='page_title'}
-  
-{/block}
+* 2007-2019 PrestaShop and Contributors
+*
+* NOTICE OF LICENSE
+*
+* This source file is subject to the Academic Free License 3.0 (AFL-3.0)
+* that is bundled with this package in the file LICENSE.txt.
+* It is also available through the world-wide-web at this URL:
+* https://opensource.org/licenses/AFL-3.0
+* If you did not receive a copy of the license and are unable to
+* obtain it through the world-wide-web, please send an email
+* to license@prestashop.com so we can send you a copy immediately.
+*
+* DISCLAIMER
+*
+* Do not edit or add to this file if you wish to upgrade PrestaShop to newer
+* versions in the future. If you wish to customize PrestaShop for your
+* needs please refer to https://www.prestashop.com for more information.
+*
+* @author PrestaShop SA <contact@prestashop.com>
+    * @copyright 2007-2019 PrestaShop SA and Contributors
+    * @license https://opensource.org/licenses/AFL-3.0 Academic Free License 3.0 (AFL-3.0)
+    * International Registered Trademark & Property of PrestaShop SA
+    *}
+    {extends file='page.tpl'}
+    {block name='header'}
+    
+    {/block}
+    {block name='page_title'}
+    
+    {/block}
 
-{block name='page_content'}
-    <div class="contenedorImagen">
-     <div class="row fila1">
-            <div class="col-5 col-xs-5 col-sm-5 pl-2 pl-sm-3 c1">
-              <img id="img1" src="../go-back.svg" />
-              <span class="span1">
-                Volver
-              </span>
-            </div>
-            <div class="col-7 col-xs-7 col-sm-7 pr-2 c">
-              <span class="span2">
-                Nueva cuenta
-              </span>
-              <img id="img2" src="../User-plus.svg" />
-            </div>
-          </div>
-    
-    
-    
-    </div>
-{/block}
- {block name="footer"}
-          
+
+    {block name='page_content'}
+        {block name='page_content_top'}
+            {block name='partearriba'}
+            
+            
+            
+            {/block}
         {/block}
+    {/block}
+    {block name="footer"}
+    
+    {/block}
