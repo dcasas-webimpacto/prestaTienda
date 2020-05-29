@@ -41,6 +41,24 @@
 .pl-2 {
   padding-left: 0%;
 }
+.checkbox {
+  width: 18px;
+  height: 18px;
+  margin-top: 6px;
+  margin-bottom: 0px;
+  border: 1px solid #c0c2c8;
+  cursor: pointer;
+}
+.checked {
+  width: 18px;
+  height: 18px;
+  margin-top: 6px;
+  margin-bottom: 0px;
+  background-image: url(../img/check.svg);
+  background-repeat: no-repeat;
+  border: solid black 1px;
+  cursor: pointer;
+}
 @media (max-width: 766px) {
   #authentication {
     background-image: none;
@@ -73,6 +91,7 @@
     margin-left: 15px;
     background-image: url(../img/go-back.svg);
     src: url("../img/go-back.svg");
+    cursor: pointer;
     /* margin-bottom: 5px; */
   }
   .c1 {
@@ -114,6 +133,7 @@
     background-repeat: no-repeat;
     background-size: 85%;
     src: url("../img/User-plus.svg");
+    cursor: pointer;
   }
   .fila2 {
     display: flex;
@@ -234,8 +254,184 @@
     margin-left: 5px;
     margin-top: 9px;
   }
-}
+  .fila8 {
+    height: 80px;
+    margin-top: 13px;
+    border: solid black 1px;
+  }
+  .fila8-1 {
+    margin-left: 20px;
+    border: solid black 1px;
+  }
+  #emailregistro {
+    margin-bottom: 6px;
+    font-family: Lato-Regular;
+    font-size: 13px;
+    color: #3b3b3b;
+    letter-spacing: 0;
+    line-height: 13px;
+    margin-left: 10px;
+  }
+  #casillaemail {
+    height: 45px;
+    width: 99%;
+    border-radius: 3%;
+    background-color: white;
+  }
+  .icone img {
+    width: 25px;
+    height: 25px;
+  }
+  .inner-addon {
+    position: relative;
+  }
+  .inner-addon .icone {
+    position: absolute;
+    padding: 0%;
+    /* pointer-events: none; */
+  }
+  .right-addon .icone {
+    background-size: contain;
+    border: none;
+    outline: none;
+    margin-top: 0px;
 
+    z-index: 2;
+    opacity: 0.3;
+    right: 30px;
+    top: 33px;
+  }
+  .right-addon input {
+    padding-right: 30px;
+  }
+  .fila9 {
+    height: 80px;
+    margin-top: 0px;
+    border: solid black 1px;
+  }
+  .fila9-1 {
+    margin-left: 20px;
+    border: solid black 1px;
+  }
+  #passregistro {
+    margin-bottom: 6px;
+    font-family: Lato-Regular;
+    font-size: 13px;
+    color: #3b3b3b;
+    letter-spacing: 0;
+    line-height: 13px;
+    margin-left: 10px;
+  }
+  #casillapass {
+    height: 45px;
+    width: 99%;
+    background-color: white;
+    border-radius: 3%;
+  }
+  #imagenpass {
+    height: 35px;
+    width: 35px;
+    background-image: url(../img/hide.svg);
+    background-repeat: no-repeat;
+    background-size: 85%;
+  }
+  .checkbox {
+    margin-left: 0px;
+  }
+  .checked {
+    margin-left: 0px;
+  }
+
+  #textocheck {
+    font-family: Lato-Regular;
+    font-size: 14px;
+    color: #3b3b3b;
+    letter-spacing: 0;
+    line-height: 20px;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  label.custom-radio-checkbox {
+    margin-bottom: 10px;
+  }
+  .fila10 {
+    display: flex;
+    justify-content: center;
+    height: 35px;
+    border: solid black 1px;
+  }
+  .fila10-1 {
+    padding: 0%;
+    display: flex;
+    justify-content: flex-start;
+    border: solid black 1px;
+  }
+  .fila10-2 {
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 50px;
+    padding: 0%;
+    border: solid black 1px;
+  }
+
+  #textocheck {
+    font-family: Lato-Regular;
+    font-size: 14px;
+    color: #3b3b3b;
+    letter-spacing: 0;
+    line-height: 20px;
+    margin-bottom: 10px;
+    position: relative;
+  }
+  .custom-radio-checkbox__input {
+    margin-left: 0px;
+  }
+  #letrascontra {
+    font-family: Lato-Regular;
+    font-size: 14px;
+    color: #fa2398;
+    letter-spacing: 0;
+    text-align: right;
+    line-height: 20px;
+    margin-top: 7px;
+    margin-right: 2px;
+  }
+  .fila11-1 {
+    display: flex;
+    justify-content: center;
+    padding: 0%;
+    border: solid black 1px;
+  }
+  #botonregistro {
+    font-family: Nexa-XBold;
+    font-size: 16px;
+    color: #ffffff;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 20px;
+    width: 80%;
+    height: 70%;
+  }
+  .btn {
+    width: 85%;
+    height: 50%;
+    margin-bottom: 15px;
+    background-color: #fa2398;
+    border-color: #fa2398;
+    margin-top: 8px;
+    border-radius: 4px;
+  }
+}
+@media (max-width: 320px) {
+  #textocheck {
+    font-family: Lato-Regular;
+    font-size: 12px;
+    color: #3b3b3b;
+    letter-spacing: 0;
+    line-height: 20px;
+    margin-bottom: 10px;
+  }
+}
 @media (min-width: 766px) {
   .contenedorPrincipal {
     height: 694px;
@@ -262,6 +458,7 @@
     margin-left: 25px;
     background-image: url(../img/go-back.svg);
     src: url("../img/go-back.svg");
+    cursor: pointer;
     /* margin-bottom: 5px; */
   }
   .c1 {
@@ -305,6 +502,7 @@
     background-repeat: no-repeat;
     background-size: 85%;
     src: url("../img/User-plus.svg");
+    cursor: pointer;
   }
   .fila2 {
     display: flex;
@@ -423,5 +621,148 @@
     margin-left: 0px;
     margin-right: 0px;
     background: #9ea0a4;
+  }
+  .fila8 {
+    height: 80px;
+    margin-top: 13px;
+    border: solid black 1px;
+  }
+  .fila8-1 {
+    margin-left: 35px;
+    border: solid black 1px;
+  }
+  #emailregistro {
+    margin-bottom: 6px;
+    font-family: Lato-Regular;
+    font-size: 13px;
+    color: #3b3b3b;
+    letter-spacing: 0;
+    line-height: 13px;
+    margin-left: 10px;
+  }
+  #casillaemail {
+    height: 45px;
+    width: 85%;
+    margin-left: 10px;
+    background-color: white;
+    border-radius: 3%;
+  }
+  .fila9 {
+    height: 80px;
+    margin-top: 0px;
+    border: solid black 1px;
+  }
+  .icone img {
+    width: 25px;
+    height: 25px;
+  }
+  .inner-addon {
+    position: relative;
+  }
+  .inner-addon .icone {
+    position: absolute;
+    padding: 0%;
+    /* pointer-events: none; */
+  }
+  .right-addon .icone {
+    background-size: contain;
+    border: none;
+    outline: none;
+    margin-top: 0px;
+
+    z-index: 2;
+    opacity: 0.3;
+    right: 57px;
+    top: 33px;
+  }
+  .right-addon input {
+    padding-right: 30px;
+  }
+  .fila9-1 {
+    margin-left: 35px;
+    border: solid black 1px;
+  }
+  #passregistro {
+    margin-bottom: 6px;
+    font-family: Lato-Regular;
+    font-size: 13px;
+    color: #3b3b3b;
+    letter-spacing: 0;
+    line-height: 13px;
+    margin-left: 10px;
+  }
+  #casillapass {
+    height: 45px;
+    width: 85%;
+    border-radius: 3%;
+    margin-left: 10px;
+    background-color: white;
+  }
+  #imagenpass {
+    height: 35px;
+    width: 35px;
+    background-image: url(../img/hide.svg);
+    background-repeat: no-repeat;
+    background-size: 85%;
+  }
+  .fila10 {
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    border: solid black 1px;
+  }
+  .fila10-1 {
+    padding: 0%;
+    display: flex;
+    justify-content: start;
+    border: solid black 1px;
+  }
+  .fila10-2 {
+    display: flex;
+    justify-content: flex-end;
+    border: solid black 1px;
+    padding: 0%;
+  }
+  #textocheck {
+    font-family: Lato-Regular;
+    font-size: 14px;
+    color: #3b3b3b;
+    letter-spacing: 0;
+    line-height: 20px;
+    margin-bottom: 0px;
+    position: relative;
+  }
+  .custom-radio-checkbox__input {
+    margin-left: 0px;
+  }
+  #letrascontra {
+    font-family: Lato-Regular;
+    font-size: 14px;
+    color: #fa2398;
+    letter-spacing: 0;
+    text-align: right;
+    line-height: 20px;
+    margin-top: 7px;
+    margin-right: 2px;
+  }
+  .fila11-1 {
+    display: flex;
+    justify-content: center;
+    padding: 0%;
+  }
+  #botonregistro {
+    width: 77%;
+    height: 70%;
+    margin-bottom: 15px;
+    background-color: #fa2398;
+    border-color: #fa2398;
+    margin-top: 8px;
+    border-radius: 4px;
+    font-family: Nexa-XBold;
+    font-size: 16px;
+    color: #ffffff;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 15px;
   }
 }
