@@ -56,6 +56,7 @@
   margin-bottom: 0px;
   background-image: url(../img/check.svg);
   background-repeat: no-repeat;
+  background-size: 100%;
   border: solid black 1px;
   cursor: pointer;
 }
@@ -332,6 +333,7 @@
     height: 35px;
     width: 35px;
     background-image: url(../img/hide.svg);
+    src: url(../img/hide.svg);
     background-repeat: no-repeat;
     background-size: 85%;
   }
@@ -702,6 +704,7 @@
     height: 35px;
     width: 35px;
     background-image: url(../img/hide.svg);
+    src: url(../img/hide.svg);
     background-repeat: no-repeat;
     background-size: 85%;
   }

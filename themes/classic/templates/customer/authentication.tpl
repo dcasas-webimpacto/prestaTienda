@@ -38,7 +38,6 @@
             
             
             
-            
             {/block}
         {/block}
     {/block}
