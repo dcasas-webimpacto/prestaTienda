@@ -73,7 +73,7 @@
 @media (max-width: 766px) {
   .fila1 {
     height: 40px;
-    border: solid black 1px;
+
     margin-top: 10px;
   }
   .fila20 {
@@ -97,7 +97,7 @@
   }
   .c1 {
     text-align: left;
-    border: solid black 1px;
+
     padding: 0%;
   }
   .span1 {
@@ -111,7 +111,7 @@
   }
   .c {
     text-align: right;
-    border: solid black 1px;
+
     padding: 0%;
   }
   .span2 {
@@ -139,7 +139,6 @@
   .fila2 {
     display: flex;
     justify-content: center;
-    border: solid black 1px;
   }
   #logogrande {
     margin-left: 19px;
@@ -152,8 +151,6 @@
   }
   .fila3 {
     justify-content: center;
-    border: solid black 1px;
-    height: 75px;
   }
   #login {
     margin-top: 45px;
@@ -163,11 +160,11 @@
     letter-spacing: 1px;
     text-align: center;
     line-height: 30px;
+    margin-bottom: 0px;
   }
   .fila4 {
     display: flex;
     justify-content: center;
-    border: solid black 1px;
   }
   #accede {
     font-family: Lato-Regular;
@@ -180,9 +177,8 @@
   }
   .fila5 {
     display: flex;
-    border: solid black 1px;
+    margin-top: 17px;
     justify-content: center;
-    margin-top: 20px;
   }
   .letrasacceso {
     font-family: Nexa-Bold;
@@ -204,16 +200,12 @@
   .fila6 {
     display: flex;
     justify-content: center;
-    border: solid black 1px;
   }
   .fila6-1,
   .fila6-2 {
     margin-right: 5px;
-    border: solid black 1px;
   }
-  .fila6-3 {
-    border: solid black 1px;
-  }
+
   .iconosredes {
     margin-left: 0px;
     margin-top: 10px;
@@ -243,9 +235,9 @@
   }
   .fila7 {
     display: flex;
-    border: solid black 1px;
+
     justify-content: center;
-    margin-top: 17px;
+    margin-top: 23px;
   }
   .hr2 {
     width: 33px;
@@ -258,11 +250,9 @@
   .fila8 {
     height: 80px;
     margin-top: 13px;
-    border: solid black 1px;
   }
   .fila8-1 {
     margin-left: 20px;
-    border: solid black 1px;
   }
   #emailregistro {
     margin-bottom: 6px;
@@ -308,11 +298,9 @@
   .fila9 {
     height: 80px;
     margin-top: 0px;
-    border: solid black 1px;
   }
   .fila9-1 {
     margin-left: 20px;
-    border: solid black 1px;
   }
   #passregistro {
     margin-bottom: 6px;
@@ -337,6 +325,16 @@
     background-repeat: no-repeat;
     background-size: 85%;
   }
+  #imagenpass2 {
+    height: 35px;
+    width: 35px;
+    background-image: url(../img/show.svg);
+    src: url(../img/show.svg);
+    background-repeat: no-repeat;
+    background-size: 85%;
+    color: black;
+    display: none;
+  }
   .checkbox {
     margin-left: 0px;
   }
@@ -360,20 +358,17 @@
     display: flex;
     justify-content: center;
     height: 35px;
-    border: solid black 1px;
   }
   .fila10-1 {
     padding: 0%;
     display: flex;
     justify-content: flex-start;
-    border: solid black 1px;
   }
   .fila10-2 {
     display: flex;
     justify-content: flex-end;
     margin-left: 50px;
     padding: 0%;
-    border: solid black 1px;
   }
 
   #textocheck {
@@ -402,7 +397,6 @@
     display: flex;
     justify-content: center;
     padding: 0%;
-    border: solid black 1px;
   }
   #botonregistro {
     font-family: Nexa-XBold;
@@ -413,6 +407,7 @@
     line-height: 20px;
     width: 80%;
     height: 70%;
+    cursor: pointer;
   }
   .btn {
     width: 85%;
@@ -451,13 +446,13 @@
   .fila1 {
     height: 40px;
     margin-top: 10px;
-    border: solid black 1px;
   }
 
   #img1 {
     height: 24px;
     width: 24px;
     margin-left: 25px;
+    margin-bottom: 10px;
     background-image: url(../img/go-back.svg);
     src: url("../img/go-back.svg");
     cursor: pointer;
@@ -465,7 +460,7 @@
   }
   .c1 {
     text-align: left;
-    border: solid black 1px;
+
     padding: 0%;
   }
   .span1 {
@@ -479,7 +474,7 @@
   }
   .c {
     text-align: right;
-    border: solid black 1px;
+
     padding: 0%;
   }
   .span2 {
@@ -509,7 +504,6 @@
   .fila2 {
     display: flex;
     justify-content: center;
-    border: solid black 1px;
   }
   #logogrande {
     margin-left: 19px;
@@ -522,8 +516,6 @@
   }
   .fila3 {
     justify-content: center;
-    border: solid black 1px;
-    height: 75px;
   }
   #login {
     margin-top: 47px;
@@ -535,7 +527,6 @@
     line-height: 30px;
   }
   .fila4 {
-    border: solid black 1px;
     display: flex;
     justify-content: center;
   }
@@ -549,10 +540,8 @@
     margin-top: 7px;
   }
   .fila5 {
-    border: solid black 1px;
     display: flex;
     justify-content: center;
-    margin-top: 17px;
   }
   .letrasacceso {
     font-family: Nexa-Bold;
@@ -574,16 +563,12 @@
   .fila6 {
     display: flex;
     justify-content: center;
-    border: solid black 1px;
   }
   .fila6-1,
   .fila6-2 {
     margin-right: 5px;
-    border: solid black 1px;
   }
-  .fila6-3 {
-    border: solid black 1px;
-  }
+
   .iconosredes {
     margin-left: 0px;
     margin-top: 10px;
@@ -613,7 +598,7 @@
   }
   .fila7 {
     display: flex;
-    border: solid black 1px;
+
     justify-content: center;
     margin-top: 17px;
   }
@@ -627,11 +612,9 @@
   .fila8 {
     height: 80px;
     margin-top: 13px;
-    border: solid black 1px;
   }
   .fila8-1 {
     margin-left: 35px;
-    border: solid black 1px;
   }
   #emailregistro {
     margin-bottom: 6px;
@@ -652,7 +635,6 @@
   .fila9 {
     height: 80px;
     margin-top: 0px;
-    border: solid black 1px;
   }
   .icone img {
     width: 25px;
@@ -682,7 +664,6 @@
   }
   .fila9-1 {
     margin-left: 35px;
-    border: solid black 1px;
   }
   #passregistro {
     margin-bottom: 6px;
@@ -708,22 +689,30 @@
     background-repeat: no-repeat;
     background-size: 85%;
   }
+  #imagenpass2 {
+    height: 35px;
+    width: 35px;
+    background-image: url(../img/show.svg);
+    src: url(../img/show.svg);
+    background-repeat: no-repeat;
+    color: black;
+    background-size: 85%;
+    display: none;
+  }
   .fila10 {
     height: 35px;
     display: flex;
     justify-content: center;
-    border: solid black 1px;
   }
   .fila10-1 {
     padding: 0%;
     display: flex;
     justify-content: start;
-    border: solid black 1px;
   }
   .fila10-2 {
     display: flex;
     justify-content: flex-end;
-    border: solid black 1px;
+
     padding: 0%;
   }
   #textocheck {
@@ -767,5 +756,6 @@
     letter-spacing: 0;
     text-align: center;
     line-height: 15px;
+    cursor: pointer;
   }
 }
