@@ -29,7 +29,9 @@
     {block name='page_content_container'}
         <section id="content" class="page-content">
             {block name='page_content_top'}
-        
+                {block name='partearriba'}
+            
+                {/block}
                 {block name='customer_notifications'}
                     {include file='_partials/notifications.tpl'}
                 {/block}

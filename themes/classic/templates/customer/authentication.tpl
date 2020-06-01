@@ -34,11 +34,8 @@
     {block name='page_content'}
         {block name='page_content_top'}
             {block name='partearriba'}
-            
-            
-            
-            
             {/block}
+        
         {/block}
     {/block}
     {block name="footer"}

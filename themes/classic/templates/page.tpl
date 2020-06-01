@@ -37,13 +37,15 @@
         {/block}
 
         {block name='page_content_container'}
-        <section id="content" class="page-content card card-block">
-            {block name='page_content_top'}
-            {/block}
-            {block name='page_content'}
-            <!-- Page content -->
-            {/block}
-        </section>
+        {block name='partearriba'}
+        {include file='_partials/arriba.tpl'}
+        {/block}
+
+        {block name='page_content_top'}{/block}
+        {block name='page_content'}
+        <!-- Page content -->
+        {/block}
+
         {/block}
 
         {block name='page_footer_container'}

@@ -49,7 +49,7 @@
                 </header>
                 {block name='page_content_top'}
                     {block name='partearriba'}
-                        {include file='_partials/arriba.tpl'}
+        
                     {/block}
     
                 {/block}
