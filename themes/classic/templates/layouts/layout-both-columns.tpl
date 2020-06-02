@@ -51,7 +51,9 @@
                     {block name='partearriba'}
         
                     {/block}
-    
+                    {block name='registro'}
+        
+                    {/block}
                 {/block}
 
                 {block name='notifications'}

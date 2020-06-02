@@ -36,14 +36,14 @@
                     <div class="row fila1">
                         <div class="col-5 col-xs-5 col-sm-5  c1">
                             <img id="img1" src="/mitienda/themes/classic/assets/img/go-back.svg" />
-                            <span class="span1">
+                            <a class="span1" href="http://localhost/mitienda/es/">
                                 Volver
-                            </span>
+                            </a>
                         </div>
                         <div class="col-7 col-xs-7 col-sm-7 c">
-                            <span class="span2">
+                            <a href="{$urls.pages.register}" class="span2">
                                 Nueva cuenta
-                            </span>
+                            </a>
                             <img id="img2" src="/mitienda/themes/classic/assets/img/User-plus.svg" />
                         </div>
                     </div>
@@ -100,7 +100,7 @@
                             </label>
                         </div>
                         <div class="col-7 col-md-5 col-lg-5 fila10-2">
-                            <a href="" id="letrascontra">¿Has olvidado tu contraseña?</a>
+                            <a href="http://localhost/mitienda/en/contact-us" id="letrascontra">¿Has olvidado tu contraseña?</a>
                         </div>
                     </div>
                     <div class="row fila11">
@@ -111,6 +111,7 @@
 
                         </div>
                     </div>
+
                 </form>
             </div>
         </div>
