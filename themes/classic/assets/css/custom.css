@@ -2,6 +2,50 @@
  * Custom code goes here.
  * A template should always ship with an empty custom.css
  */
+.radio-item {
+  display: inline-block;
+  position: relative;
+  padding: 0 6px;
+  margin: 10px 0 0;
+}
+
+.radio-item input[type="radio"] {
+  display: none;
+  cursor: pointer;
+}
+
+.radio-item label {
+  font-family: Lato-Bold;
+  font-size: 15px;
+  color: #3b3b3b;
+  letter-spacing: 0;
+  line-height: 42px;
+}
+
+.radio-item label:before {
+  content: " ";
+  display: inline-block;
+  position: relative;
+  top: 5px;
+  margin: 0 5px 0 0;
+  width: 20px;
+  height: 20px;
+  border-radius: 11px;
+  border: 2px solid black;
+  background-color: transparent;
+}
+
+.radio-item input[type="radio"]:checked + label:after {
+  border-radius: 11px;
+  width: 12px;
+  height: 12px;
+  position: absolute;
+  top: 15px;
+  left: 10px;
+  content: " ";
+  display: block;
+  background: #fa2398;
+}
 
 #authentication {
   background-image: linear-gradient(#fa2398 100%, #dd1f94 100%);
@@ -361,12 +405,14 @@
   #imagenpass {
     height: 35px;
     width: 35px;
+    cursor: pointer;
   }
   #imagenpass2 {
     height: 35px;
     width: 35px;
     color: black;
     display: none;
+    cursor: pointer;
   }
 
   .checkbox {
@@ -715,22 +761,26 @@
   #imagenpass {
     height: 35px;
     width: 35px;
+    cursor: pointer;
   }
   #imagenpass2 {
     height: 35px;
     width: 35px;
     color: black;
     display: none;
+    cursor: pointer;
   }
   #imagenpass3 {
     height: 35px;
     width: 35px;
+    cursor: pointer;
   }
   #imagenpass4 {
     height: 35px;
     width: 35px;
     color: black;
     display: none;
+    cursor: pointer;
   }
   .fila10 {
     height: 35px;
@@ -879,6 +929,7 @@
     justify-content: flex-start;
     align-items: center;
     padding-left: 0%;
+    height: 25px;
   }
   .pl-2 {
     padding-left: 0;
@@ -1030,6 +1081,7 @@
 
   .fila16 {
     margin-left: 10px;
+    margin-top: 10px;
   }
 
   .fila16-1 p {
@@ -1107,12 +1159,31 @@
   #imagenpass3 {
     height: 35px;
     width: 35px;
+    cursor: pointer;
   }
   #imagenpass4 {
     height: 35px;
     width: 35px;
     color: black;
     display: none;
+    cursor: pointer;
+  }
+  #botonregistro2 {
+    width: 87%;
+    height: 70%;
+    margin-bottom: 15px;
+    background-color: #fa2398;
+    border-color: #fa2398;
+    margin-top: 8px;
+    border-radius: 4px;
+    font-family: Nexa-XBold;
+    font-size: 16px;
+    color: #ffffff;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 21px;
+    cursor: pointer;
+    text-transform: none;
   }
 }
 
@@ -1186,6 +1257,7 @@
     justify-content: flex-start;
     align-items: center;
     margin-left: 2px;
+    height: 25px;
   }
   .fila12 {
     display: flex;

@@ -99,14 +99,16 @@
                 </div>
                 <form>
                     <div class="row filachecks pl-2 pl-sm-4 mt-sm-5">
-                        <div class="pretty-radio">
-                            <input type="radio" class="radio" name="my-radio">
-                            <span class="radio-look"></span>
-                            Mujer
-                            <input type="radio" class="radio" name="my-radio">
-                            <span class="radio-look"></span>
-                            Hombre
+                        <div class="radio-item">
+                            <input type="radio" id="ritema" name="mujer" value="ropt1">
+                            <label for="ritema">Mujer</label>
                         </div>
+
+                        <div class="radio-item">
+                            <input type="radio" id="ritemb" name="hombre" value="ropt2">
+                            <label for="ritemb">Hombre</label>
+                        </div>
+
                     </div>
                     <div class="row fila12">
                         <div class="col-3 col-md-6 fila12-1">
@@ -251,6 +253,7 @@
 
                         </div>
                     </div>
+
                 </form>
             </div>
         </div>
