@@ -218,13 +218,13 @@
                         <div class="col-6 col-md-6 form-group inner-addon right-addon fila15-1" id="show_hide_password">
                             <label for="exampleInputPassword1" id="passregistro2">Contraseña</label>
                             <input type="password" class="form-control" id="casillapass2" />
-                            <a class="icone" id="enlacee2" onclick="mostrarpass()"><img id="imagenpass" src="/mitienda/themes/classic/assets/img/hide.svg" /><img id="imagenpass2" src="/mitienda/themes/classic/assets/img/show.svg" /></a>
+                            <a class="icone2" id="enlacee2" onclick="mostrarpass()"><img id="imagenpass" src="/mitienda/themes/classic/assets/img/hide.svg" /><img id="imagenpass2" src="/mitienda/themes/classic/assets/img/show.svg" /></a>
                         </div>
                         <div class="col-6 col-md-6 form-group inner-addon right-addon fila15-2" id="show_hide_password">
 
                             <label for="exampleInputPassword1" id="passregistro3">Repetir Contraseña</label>
                             <input type="password" class="form-control" id="casillapass3" />
-                            <a class="icone" id="enlacee2" onclick="mostrarpass()"><img id="imagenpass" src="/mitienda/themes/classic/assets/img/hide.svg" /><img id="imagenpass2" src="/mitienda/themes/classic/assets/img/show.svg" /></a>
+                            <a class="iconee" id="enlacee2" onclick="mostrarpass2()"><img id="imagenpass3" src="/mitienda/themes/classic/assets/img/hide.svg" /><img id="imagenpass4" src="/mitienda/themes/classic/assets/img/show.svg" /></a>
                         </div>
                     </div>
                     <div class="row fila16">
@@ -238,7 +238,7 @@
                         </div>
                         <div class="col-11 col-md-6 fila16-2">
                             <label class="custom-radio-checkbox">
-                                <label class="checkbox" id="checknews" onclick="cambiacheck()"></label>
+                                <label class="checkbox" id="checknews2" onclick="cambiacheck2()"></label>
                                 <span class="custom-radio-checkbox__show custom-radio-checkbox__show--checkbox" id="textocheck">Confirmo que he leído y acepto la política de privacidad.</span>
                             </label>
                         </div>
@@ -246,7 +246,7 @@
                     <div class="row fila17">
                         <div class="col-12 fila17-1">
                             <button type="button" class="btn btn-primary btn-lg btn-block" id="botonregistro2">
-                                Iniciar sesión
+                                Regístrate
                             </button>
 
                         </div>
@@ -259,7 +259,7 @@
 
     <script>
         function mostrarpass() {
-            var campo = document.getElementById("casillapass");
+            var campo = document.getElementById("casillapass2");
             var imagenojo = document.getElementById("imagenpass");
             var imagensinojo = document.getElementById("imagenpass2");
             //  alert("entra aquí");
@@ -277,8 +277,39 @@
             }
         }
 
+        function mostrarpass2() {
+            var campo = document.getElementById("casillapass3");
+            var imagenojo = document.getElementById("imagenpass3");
+            var imagensinojo = document.getElementById("imagenpass4");
+            // alert("entra aquí");
+            if (campo.type == "password") {
+                campo.type = "text";
+                imagenojo.style.display = "none";
+                imagensinojo.style.display = "block";
+                // alert("cambia ojo");
+            } else if (campo.type == "text") {
+                campo.type = "password";
+                imagensinojo.style.display = "none";
+                imagenojo.style.display = "block";
+                // imagenojo.attr("src", "../assets/hide.svg");
+                // alert("cambia sin ojo");
+            }
+        }
+
         function cambiacheck() {
             var checkk = document.getElementById("checknews");
+            //alert("entra aquí");
+            if (checkk.className == "checked") {
+                checkk.setAttribute("class", "checkbox");
+                // alert("entra pulsado");
+            } else {
+                checkk.setAttribute("class", "checked");
+                // alert("entra sin pulsar");
+            }
+        }
+
+        function cambiacheck2() {
+            var checkk = document.getElementById("checknews2");
             //alert("entra aquí");
             if (checkk.className == "checked") {
                 checkk.setAttribute("class", "checkbox");

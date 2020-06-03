@@ -368,6 +368,7 @@
     color: black;
     display: none;
   }
+
   .checkbox {
     margin-left: 0px;
   }
@@ -721,6 +722,16 @@
     color: black;
     display: none;
   }
+  #imagenpass3 {
+    height: 35px;
+    width: 35px;
+  }
+  #imagenpass4 {
+    height: 35px;
+    width: 35px;
+    color: black;
+    display: none;
+  }
   .fila10 {
     height: 35px;
     display: flex;
@@ -873,14 +884,11 @@
     padding-left: 0;
   }
   .fila12 {
-    border: solid black 1px;
     display: flex;
     justify-content: center;
     margin-top: 32px;
   }
-  .fila12-1 {
-    border: solid black 1px;
-  }
+
   #nombreRegistro {
     font-family: Lato-Regular;
     font-size: 13px;
@@ -912,27 +920,18 @@
 
     width: 88%;
   }
-  .fila12-2 {
-    border: solid black 1px;
-  }
-  .fila13-1 {
-    border: solid black 1px;
-  }
+
   .fila13-2 {
-    border: solid black 1px;
     margin-top: 13px;
     padding-left: 10%;
   }
   .fila14 {
-    border: solid black 1px;
     display: flex;
     justify-content: space-around;
     margin-top: 13px;
     margin-left: 10px;
   }
-  .fila14-1 {
-    border: solid black 1px;
-  }
+
   #cumpleanos {
     font-family: Lato-Regular;
     font-size: 13px;
@@ -948,7 +947,6 @@
     width: 90px;
   }
   .fila14-2 {
-    border: solid black 1px;
     padding-left: 0%;
   }
   #selectmes {
@@ -960,7 +958,6 @@
     width: 90px;
   }
   .fila14-3 {
-    border: solid black 1px;
     padding-left: 0%;
   }
   #selectanio {
@@ -988,7 +985,6 @@
     margin-left: 10px;
   }
   .fila15 {
-    border: solid black 1px;
     display: flex;
     justify-content: center;
     margin-bottom: 0px;
@@ -998,12 +994,9 @@
     margin-bottom: 0rem;
   }
   .fila15-1 {
-    border: solid black 1px;
     margin-left: 15px;
   }
-  .fila15-2 {
-    border: solid black 1px;
-  }
+
   #passregistro2 {
     margin-bottom: 6px;
     font-family: Lato-Regular;
@@ -1034,46 +1027,16 @@
     background-color: white;
     border-radius: 3%;
   }
-  /* .iconee img {
-    width: 25px;
-    height: 25px;
-  }
-  .inner-addon {
-    position: relative;
-  }
-  .inner-addon .iconee {
-    position: absolute;
-    padding: 0%;
-    /* pointer-events: none; */
-  /* }
-  .right-addon .iconee {
-    background-size: contain;
-    border: none;
-    outline: none;
-    margin-top: 0px;
 
-    z-index: 2;
-    opacity: 0.3;
-    right: 28px;
-    top: 30px;
-  }
-  .right-addon input {
-    padding-right: 30px;
-  } */
   .fila16 {
-    border: solid black 1px;
     margin-left: 10px;
   }
-  .fila16-1 {
-    border: solid black 1px;
-  }
+
   .fila16-1 p {
     margin-bottom: 0rem;
     margin-left: 10px;
   }
-  .fila16-2 {
-    border: solid black 1px;
-  }
+
   .fila16-2 label {
     text-align: inherit;
   }
@@ -1088,6 +1051,68 @@
     display: flex;
     justify-content: center;
     padding: 0%;
+  }
+  .icone2 img {
+    width: 25px;
+    height: 25px;
+  }
+  .inner-addon {
+    position: relative;
+  }
+  .inner-addon .icone2 {
+    position: absolute;
+    padding: 0%;
+    /* pointer-events: none; */
+  }
+  .right-addon .icone2 {
+    background-size: contain;
+    border: none;
+    outline: none;
+    margin-top: 0px;
+
+    z-index: 2;
+    opacity: 0.3;
+    right: 37px;
+    top: 30px;
+  }
+  .right-addon input {
+    padding-right: 30px;
+  }
+  .iconee img {
+    width: 25px;
+    height: 25px;
+  }
+  .inner-addon {
+    position: relative;
+  }
+  .inner-addon .iconee {
+    position: absolute;
+    padding: 0%;
+    /* pointer-events: none; */
+  }
+  .right-addon .iconee {
+    background-size: contain;
+    border: none;
+    outline: none;
+    margin-top: 0px;
+
+    z-index: 2;
+    opacity: 0.3;
+    right: 36px;
+    top: 30px;
+  }
+  .right-addon input {
+    padding-right: 30px;
+  }
+  #imagenpass3 {
+    height: 35px;
+    width: 35px;
+  }
+  #imagenpass4 {
+    height: 35px;
+    width: 35px;
+    color: black;
+    display: none;
   }
 }
 
@@ -1163,14 +1188,11 @@
     margin-left: 2px;
   }
   .fila12 {
-    border: solid black 1px;
     display: flex;
     justify-content: center;
     margin-top: 32px;
   }
-  .fila12-1 {
-    border: solid black 1px;
-  }
+
   #nombreRegistro {
     font-family: Lato-Regular;
     font-size: 13px;
@@ -1202,22 +1224,17 @@
 
     width: 90%;
   }
-  .fila12-2 {
-    border: solid black 1px;
-  }
+
   .fila13-1 {
-    border: solid black 1px;
     padding: 0%;
     display: flex;
     justify-content: center;
   }
   .fila13-2 {
-    border: solid black 1px;
     margin-top: 10px;
     margin-left: 30px;
   }
   .fila14 {
-    border: solid black 1px;
     display: flex;
 
     margin-top: 7px;
@@ -1230,7 +1247,6 @@
     line-height: 13px;
   }
   .fila14-1 {
-    border: solid black 1px;
     padding: 0%;
     margin-left: 47px;
   }
@@ -1242,7 +1258,6 @@
     width: 90px;
   }
   .fila14-2 {
-    border: solid black 1px;
     padding: 0%;
     margin-right: 10px;
   }
@@ -1255,7 +1270,6 @@
     width: 80px;
   }
   .fila14-3 {
-    border: solid black 1px;
     padding: 0%;
   }
   #selectanio {
@@ -1283,7 +1297,6 @@
     width: 90%;
   }
   .fila15 {
-    border: solid black 1px;
     display: flex;
     justify-content: center;
     margin-top: 10px;
@@ -1292,11 +1305,9 @@
     margin-bottom: 0rem;
   }
   .fila15-1 {
-    border: solid black 1px;
     margin-left: 15px;
   }
   .fila15-2 {
-    border: solid black 1px;
     padding-left: 1%;
   }
   #passregistro2 {
@@ -1331,19 +1342,16 @@
     border-radius: 3%;
   }
   .fila16 {
-    border: solid black 1px;
     margin-top: 10px;
   }
   .fila16-1 {
-    border: solid black 1px;
     margin-left: 35px;
   }
   .fila16-1 p {
     margin-bottom: 0rem;
-    margin-left: 10px;
+    margin-left: 20px;
   }
   .fila16-2 {
-    border: solid black 1px;
     margin-left: 22px;
   }
   #letrasabajo {
@@ -1388,5 +1396,101 @@
     line-height: 21px;
     cursor: pointer;
     text-transform: none;
+  }
+  .icone2 img {
+    width: 25px;
+    height: 25px;
+  }
+  .inner-addon {
+    position: relative;
+  }
+  .inner-addon .icone2 {
+    position: absolute;
+    padding: 0%;
+    /* pointer-events: none; */
+  }
+  .right-addon .icone2 {
+    background-size: contain;
+    border: none;
+    outline: none;
+    margin-top: 0px;
+
+    z-index: 2;
+    opacity: 0.3;
+    right: 32px;
+    top: 30px;
+  }
+  .right-addon input {
+    padding-right: 30px;
+  }
+  .iconee img {
+    width: 25px;
+    height: 25px;
+  }
+  .inner-addon {
+    position: relative;
+  }
+  .inner-addon .iconee {
+    position: absolute;
+    padding: 0%;
+    /* pointer-events: none; */
+  }
+  .right-addon .iconee {
+    background-size: contain;
+    border: none;
+    outline: none;
+    margin-top: 0px;
+
+    z-index: 2;
+    opacity: 0.3;
+    right: 52px;
+    top: 30px;
+  }
+  .right-addon input {
+    padding-right: 30px;
+  }
+  .radio {
+    opacity: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 5em;
+    height: 5em;
+    z-index: 2;
+    cursor: pointer;
+  }
+
+  .radio-look {
+    width: 1em;
+    height: 1em;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 5px;
+    border: 0.1px solid black;
+    border-radius: 50%;
+    position: relative;
+    margin-left: 18px;
+  }
+
+  .radio-look:after {
+    content: "";
+    position: absolute;
+    left: 5px;
+    top: 5px;
+    bottom: 5px;
+    right: 5px;
+    border: 2.6px #fa2398;
+    border-radius: 70%;
+    font-family: Lato-Bold;
+    font-size: 15px;
+    color: #3b3b3b;
+    letter-spacing: 0;
+    line-height: 42px;
+    font-weight: bold;
+  }
+
+  .radio:checked + .radio-look:after {
+    background: #fa2398;
+    font-weight: bold;
   }
 }
