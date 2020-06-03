@@ -210,6 +210,45 @@
                             </div>
                         </div>
                         <div class="row col-md-6 fila13-2">
+                            <label for="exampleInputEmail1" id="emailregistro2">Email</label>
+                            <input type="email" class="form-control" id="casillaemail2" />
+                        </div>
+                    </div>
+                    <div class="row fila15">
+                        <div class="col-6 col-md-6 form-group inner-addon right-addon fila15-1" id="show_hide_password">
+                            <label for="exampleInputPassword1" id="passregistro2">Contraseña</label>
+                            <input type="password" class="form-control" id="casillapass2" />
+                            <a class="icone" id="enlacee2" onclick="mostrarpass()"><img id="imagenpass" src="/mitienda/themes/classic/assets/img/hide.svg" /><img id="imagenpass2" src="/mitienda/themes/classic/assets/img/show.svg" /></a>
+                        </div>
+                        <div class="col-6 col-md-6 form-group inner-addon right-addon fila15-2" id="show_hide_password">
+
+                            <label for="exampleInputPassword1" id="passregistro3">Repetir Contraseña</label>
+                            <input type="password" class="form-control" id="casillapass3" />
+                            <a class="icone" id="enlacee2" onclick="mostrarpass()"><img id="imagenpass" src="/mitienda/themes/classic/assets/img/hide.svg" /><img id="imagenpass2" src="/mitienda/themes/classic/assets/img/show.svg" /></a>
+                        </div>
+                    </div>
+                    <div class="row fila16">
+                        <div class="col-11 col-md-5 fila16-1">
+                            <label class="custom-radio-checkbox">
+                                <label class="checkbox" id="checknews" onclick="cambiacheck()"></label>
+                                <span class="custom-radio-checkbox__show custom-radio-checkbox__show--checkbox" id="textocheck">Suscríbete a la Newsletter</span>
+                            </label>
+                            <p id="letrasabajo"> Acceso exclusivo a noticias, nuevos productos,
+                                <br />descuentos, sorteos y promociones especiales.</p>
+                        </div>
+                        <div class="col-11 col-md-6 fila16-2">
+                            <label class="custom-radio-checkbox">
+                                <label class="checkbox" id="checknews" onclick="cambiacheck()"></label>
+                                <span class="custom-radio-checkbox__show custom-radio-checkbox__show--checkbox" id="textocheck">Confirmo que he leído y acepto la política de privacidad.</span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="row fila17">
+                        <div class="col-12 fila17-1">
+                            <button type="button" class="btn btn-primary btn-lg btn-block" id="botonregistro2">
+                                Iniciar sesión
+                            </button>
+
                         </div>
                     </div>
                 </form>
