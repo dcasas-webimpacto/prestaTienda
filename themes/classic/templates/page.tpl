@@ -37,12 +37,6 @@
             {/block}
     
             {block name='page_content_container'}
-                {block name='partearriba'}
-                    {include file='_partials/arriba.tpl'}
-                {/block}
-                {block name='registro'}
-                    {include file='_partials/registro.tpl'}
-                {/block}
         
                 {block name='page_content_top'}{/block}
                 {block name='page_content'}

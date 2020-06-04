@@ -48,12 +48,7 @@
                     {/block}
                 </header>
                 {block name='page_content_top'}
-                    {block name='partearriba'}
-        
-                    {/block}
-                    {block name='registro'}
-        
-                    {/block}
+    
                 {/block}
 
                 {block name='notifications'}

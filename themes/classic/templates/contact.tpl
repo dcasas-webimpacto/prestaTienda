@@ -31,11 +31,7 @@
             {widget name="ps_contactinfo" hook='displayLeftColumn'}
         </div>
     {/block}
-    {block name='partearriba'}
-    {/block}
-    {block name='registro'}
-    
-    {/block}
+
     {block name='page_content'}
         {widget name="contactform"}
     {/block}
