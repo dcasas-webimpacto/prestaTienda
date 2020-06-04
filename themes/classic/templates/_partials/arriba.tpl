@@ -100,7 +100,9 @@
                             </label>
                         </div>
                         <div class="col-7 col-md-5 col-lg-5 fila10-2">
-                            <a href="http://localhost/mitienda/en/contact-us" id="letrascontra">¿Has olvidado tu contraseña?</a>
+                            <a href="{$urls.pages.password}" id="letrascontra" rel="nofollow">
+                                {l s='Forgot your password?' d='Shop.Theme.Customeraccount'}
+                            </a>
                         </div>
                     </div>
                     <div class="row fila11">
