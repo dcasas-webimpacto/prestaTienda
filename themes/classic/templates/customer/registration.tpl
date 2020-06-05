@@ -122,11 +122,15 @@
                                 </div>
                                 <div class="row fila12">
                                     <div class="col-3 col-md-6 fila12-1">
-                                        <label id="nombreRegistro" for="nombreRegistro">Nombre</label>
+                                        <label id="nombreRegistro" for="nombreRegistro">
+                                            {l s='First name' d='Shop.Theme.Customeraccount'}
+                                        </label>
                                         <input type="name" class="form-control" id="nombre">
                                     </div>
                                     <div class="col-3 col-md-6 fila12-2">
-                                        <label id="apellidosRegistro" for="apellidosRegistro">Apellidos</label>
+                                        <label id="apellidosRegistro" for="apellidosRegistro">
+                                            {l s='Last name' d='Shop.Theme.Customeraccount'}
+                                        </label>
                                         <input type="name" class="form-control" id="apellidos">
                                     </div>
                                 </div>
@@ -222,13 +226,17 @@
                                         </div>
                                     </div>
                                     <div class="row col-md-6 fila13-2">
-                                        <label for="exampleInputEmail1" id="emailregistro2">Email</label>
+                                        <label for="exampleInputEmail1" id="emailregistro2">
+                                            {l s='Email:' d='Shop.Theme.Customeraccount'}
+                                        </label>
                                         <input type="email" class="form-control" id="casillaemail2" />
                                     </div>
                                 </div>
                                 <div class="row fila15">
                                     <div class="col-6 col-md-6 form-group inner-addon right-addon fila15-1" id="show_hide_password">
-                                        <label for="exampleInputPassword1" id="passregistro2">Contraseña</label>
+                                        <label for="exampleInputPassword1" id="passregistro2">
+                                            {l s='Password' d='Shop.Theme.Customeraccount'}
+                                        </label>
                                         <input type="password" class="form-control" id="casillapass2" />
                                         <a class="icone2" id="enlacee2" onclick="mostrarpass()"><img id="imagenpass" src="/mitienda/themes/classic/assets/img/hide.svg" /><img id="imagenpass2" src="/mitienda/themes/classic/assets/img/show.svg" /></a>
                                     </div>

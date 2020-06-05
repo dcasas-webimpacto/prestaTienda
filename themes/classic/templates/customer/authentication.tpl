@@ -62,7 +62,7 @@
                         </div>
                     </div>
                     <div class="row fila4">
-                        <p id="accede">¡Accede a tu cuenta para disfrutar de tus ventajas!</p>
+                        <p id="accede">{l s='Access your account to enjoy your advantages!' d='Shop.Theme.Customeraccount'}</p>
                     </div>
                     <div class="row fila5">
                         <hr class="hr" />
@@ -89,7 +89,7 @@
                         <div class="row fila8">
                             <div class="col-11 form-group fila8-1">
                                 <label for="exampleInputEmail1" id="emailregistro">
-                                    {l s='Email address' d='Shop.Theme.Customeraccount'}
+                                    {l s='Email:' d='Shop.Theme.Customeraccount'}
                                 </label>
                                 <input type="email" class="form-control" id="casillaemail" />
                             </div>
@@ -97,7 +97,7 @@
                         <div class="row fila9">
                             <div class="col-11 form-group inner-addon right-addon fila9-1" id="show_hide_password">
                                 <label for="exampleInputPassword1" id="passregistro">
-                                    {l s='Password' d='Shop.Theme.Customeraccount'}
+                                    {l s='Set your password:' d='Shop.Theme.Customeraccount'}
                                 </label>
                                 <input type="password" class="form-control" id="casillapass" />
                                 <a class="icone" id="enlacee" onclick="mostrarpass()"><img id="imagenpass" src="/mitienda/themes/classic/assets/img/hide.svg" /><img id="imagenpass2" src="/mitienda/themes/classic/assets/img/show.svg" /></a>
