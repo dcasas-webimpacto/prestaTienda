@@ -47,12 +47,12 @@
                                     <div class="col-5 col-xs-5 col-sm-5  c1">
                                         <img id="img1" src="/mitienda/themes/classic/assets/img/go-back.svg" />
                                         <a lang="es" class="span1" href="http://localhost/mitienda/es/">
-                                            Volver
+                                            {l s='Returned' d='Shop.Theme.Customeraccount'}
                                         </a>
                                     </div>
                                     <div class="col-7 col-xs-7 col-sm-7 c">
                                         <a href="http://localhost/mitienda/es/iniciar-sesion?back=my-account" class="span2">
-                                            Ya tengo cuenta
+                                            {l s='Already have an account?' d='Shop.Theme.Customeraccount'}
                                         </a>
                                         <img id="img2" src="/mitienda/themes/classic/assets/img/User.svg" />
                                     </div>
